@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function AboutUs() {
     return (
         <>
-            <div className="container my-24 px-6 mx-auto">
+            <div className="container my-24 px-6 mx-auto ">
                 {/* Section: Design Block */}
                 <section className="my-32 text-gray-800 text-center">
                     <div className="flex justify-center">

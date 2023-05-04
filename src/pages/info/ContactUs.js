@@ -3,9 +3,7 @@ import React from "react";
 export default function ContactUs() {
     return (
         <>
-            {/* Container for demo purpose */}
             <div>
-                {/* Section: Design Block */}
                 <section className="min-h-screen">
                     <div className=" flex"></div>
                     <svg
@@ -126,8 +124,6 @@ export default function ContactUs() {
                                     backdropFilter: "saturate(200%) blur(25px)",
                                 }}
                             >
-                                <>
-                                    {/* Section: Design Block */}
                                     <section className="mb-12 text-gray-800">
                                         <div className="flex justify-center">
                                             <div className="text-center lg:max-w-3xl md:max-w-xl">
@@ -157,8 +153,7 @@ export default function ContactUs() {
                                                     </div>
                                                     <div className="form-group mb-6">
                                                         <textarea
-                                                            className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-    "
+                                                            className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                                             id="exampleFormControlTextarea13"
                                                             rows={3}
                                                             placeholder="Message"
@@ -336,15 +331,11 @@ export default function ContactUs() {
                                             </div>
                                         </div>
                                     </section>
-                                    {/* Section: Design Block */}
-                                </>
                             </div>
                         </div>
                     </div>
                 </section>
-                {/* Section: Design Block */}
             </div>
-            {/* Container for demo purpose */}
         </>
     );
 }
