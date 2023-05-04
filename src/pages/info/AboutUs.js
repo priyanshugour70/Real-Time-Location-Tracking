@@ -12,7 +12,7 @@ export default function AboutUs() {
                             <h2 className="text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight mb-12">
                                 About Us <br />
                                 <span className="text-blue-600">
-                                    website's creator ?
+                                    website&apos;s creator ?
                                 </span>
                             </h2>
                             <p className="text-gray-500 text-lg">
@@ -23,7 +23,7 @@ export default function AboutUs() {
                                 navigating the University a stressful
                                 experience, especially for those who are running
                                 late or have an important appointment to attend.
-                                That's where RTLT comes in. RTLT is a real-time
+                                That&apos;s where RTLT comes in. RTLT is a real-time
                                 location tracking solution designed specifically
                                 for first-time visitors to the University. Our
                                 website provides a simple and intuitive way for
@@ -69,7 +69,7 @@ export default function AboutUs() {
                                         Priyanshu Gour
                                     </h2>
                                     <p className="mb-6 pb-2 lg:pb-0">
-                                        I'm an enthusiastic Full Stack web
+                                        I&apos;m an enthusiastic Full Stack web
                                         developer that has expertise building
                                         websites with React, Next, Tailwind CSS,
                                         RestAPIs, MySql and Java programming
