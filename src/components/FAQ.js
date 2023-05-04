@@ -95,38 +95,6 @@ const FAQ = () => {
                                 needs!
                             </AccordionBody>
                         </Accordion>
-                        <Accordion open={open === 4} animate={customAnimation}>
-                            <AccordionHeader onClick={() => handleOpen(4)}>
-                                Can I choose a specific doctor to consult with?
-                            </AccordionHeader>
-                            <AccordionBody>
-                                Yes, you can avail online consultation with a
-                                doctor of your choice. With multiple doctors in
-                                various specialties and cities, you can select a
-                                doctor based on their profile. You can read
-                                about their years of experience, the hospital
-                                they work at, and more, on their page. You can
-                                also check the proximity of the doctor to your
-                                location in case you would like a quick
-                                consultation before seeing them for a physical
-                                checkup. With MFine, you can always rest assured
-                                that youronline medical consultation promises
-                                quality care and hospitality.
-                            </AccordionBody>
-                        </Accordion>
-                        <Accordion open={open === 5} animate={customAnimation}>
-                            <AccordionHeader onClick={() => handleOpen(5)}>
-                                Is my online medical consultation secure?
-                            </AccordionHeader>
-                            <AccordionBody>
-                                With DoctIn, you can consult doctor online
-                                without having to worry about privacy. We ensure
-                                that your interaction with a doctor online
-                                remains confidential. Your medical history,
-                                diagnosis results, and records will also be
-                                stored in a safe and secure database.
-                            </AccordionBody>
-                        </Accordion>
                     </Fragment>
                 </div>
             </div>
