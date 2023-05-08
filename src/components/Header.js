@@ -77,9 +77,11 @@ export default function Example() {
                         <div className="flex items-center justify-between">
                             <Link href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <img
+                                <Image
                                     className="h-8 w-auto"
-                                    src="https://cdn.iconscout.com/icon/free/png-512/free-location-2889912-2397879.png?f=avif&w=256"
+                                    src="/favicon.ico"
+                                    width={500}
+                                    height={500}
                                     alt=""
                                 />
                             </Link>

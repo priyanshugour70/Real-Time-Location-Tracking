@@ -45,12 +45,12 @@ const SignIn = () => {
                                 <input className="mr-1" type="checkbox" />
                                 <span>Remember Me</span>
                             </label>
-                            <a
+                            <Link
                                 className="text-blue-600 hover:text-blue-700 hover:underline hover:underline-offset-4"
                                 href="#"
                             >
                                 Forgot Password?
-                            </a>
+                            </Link>
                         </div>
                         <div className="flex flex-col items-center">
                             <button className="mt-5 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
