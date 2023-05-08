@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Blocks() {
@@ -6,7 +8,7 @@ export default function Blocks() {
             {/* Container for demo purpose */}
             <div className="container my-24 px-6 mx-auto">
                 {/* Section: Design Block */}
-                <section className="mb-32 text-gray-800 text-center md:text-left">
+                <section className="mb-28 text-gray-800 text-center md:text-left">
                     <h2 className="text-3xl font-bold mb-12 text-center">
                         Latest articles
                     </h2>
@@ -17,12 +19,14 @@ export default function Blocks() {
                                 data-mdb-ripple="true"
                                 data-mdb-ripple-color="light"
                             >
-                                <img
-                                    src="https://mdbootstrap.com/img/new/standard/city/018.jpg"
+                                <Image
+                                    src="/sageAdmin.jpg"
                                     className="w-full"
                                     alt="Louvre"
+                                    width={500}
+                                    height={500}
                                 />
-                                <a href="#!">
+                                <Link href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -30,7 +34,7 @@ export default function Blocks() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0">
@@ -50,14 +54,6 @@ export default function Blocks() {
                                 </svg>
                                 Travels
                             </div>
-                            <p className="text-gray-500 mb-6">
-                                <small>
-                                    Published <u>13.01.2022</u> by
-                                    <a href="" className="text-gray-900">
-                                        Anna Maria Doe
-                                    </a>
-                                </small>
-                            </p>
                             <p className="text-gray-500">
                                 Ut pretium ultricies dignissim. Sed sit amet mi
                                 eget urna placerat vulputate. Ut vulputate est
@@ -73,12 +69,14 @@ export default function Blocks() {
                                 data-mdb-ripple="true"
                                 data-mdb-ripple-color="light"
                             >
-                                <img
-                                    src="https://mdbootstrap.com/img/new/standard/city/032.jpg"
+                                <Image
+                                    src="/sageAdmin.jpg"
                                     className="w-full"
                                     alt="Louvre"
+                                    width={500}
+                                    height={500}
                                 />
-                                <a href="#!">
+                                <Link href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -86,7 +84,7 @@ export default function Blocks() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0 md:order-1">
@@ -106,14 +104,6 @@ export default function Blocks() {
                                 </svg>
                                 Art
                             </div>
-                            <p className="text-gray-500 mb-6">
-                                <small>
-                                    Published <u>12.01.2022</u> by
-                                    <a href="" className="text-gray-900">
-                                        Halley Frank
-                                    </a>
-                                </small>
-                            </p>
                             <p className="text-gray-500">
                                 Suspendisse in volutpat massa. Nulla facilisi.
                                 Sed aliquet diam orci, nec ornare metus semper
@@ -129,12 +119,14 @@ export default function Blocks() {
                                 data-mdb-ripple="true"
                                 data-mdb-ripple-color="light"
                             >
-                                <img
-                                    src="https://mdbootstrap.com/img/new/standard/city/059.jpg"
+                                <Image
+                                    src="/sageAdmin.jpg"
                                     className="w-full"
                                     alt="Louvre"
+                                    width={500}
+                                    height={500}
                                 />
-                                <a href="#!">
+                                <Link href="#!">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -142,7 +134,7 @@ export default function Blocks() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0">
@@ -162,14 +154,6 @@ export default function Blocks() {
                                 </svg>
                                 Business
                             </div>
-                            <p className="text-gray-500 mb-6">
-                                <small>
-                                    Published <u>10.01.2022</u> by
-                                    <a href="" className="text-gray-900">
-                                        Joe Svan
-                                    </a>
-                                </small>
-                            </p>
                             <p className="text-gray-500">
                                 Curabitur tristique, mi a mollis sagittis, metus
                                 felis mattis arcu, non vehicula nisl dui quis

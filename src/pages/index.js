@@ -6,15 +6,17 @@ import Head from "next/head";
 import Blocks from "./info/Blocks";
 import WhySoGreat from "./info/WhySoGreat";
 import Connect from "@/components/Connect";
+import MainHero from "@/components/MainHero";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
-        <div className=" bg-gradient-to-br from-[#dea2f9] to-[#d0a9ff]">
+        <div className=" bg-white bg-gradient-to-br from-[#d0d5ff] to-[#ffc2ff]">
             <Head>
                 <title>Home | RTLT</title>
             </Head>
+            <MainHero/>
             <Hero />
             <Blocks/>
             <WhySoGreat/>
