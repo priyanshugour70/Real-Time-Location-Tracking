@@ -28,71 +28,52 @@ const FAQ = () => {
                     <Fragment>
                         <Accordion open={open === 1} animate={customAnimation}>
                             <AccordionHeader onClick={() => handleOpen(1)}>
-                                What is an online consultation?
+                                How can I use the RTLT website to navigate the
+                                University?
                             </AccordionHeader>
                             <AccordionBody>
-                                An online doctor consultation happens over an
-                                online doctor chat, call, or video call. This
-                                enables you to online without having to search
-                                or locate a clinic or . You can now opt for an
-                                online medical consultation by simply selecting
-                                a doctor from various specialties from the
-                                comfort of your home, without dealing with the
-                                hassle of waiting in traffic or long queues.
+                                Using the RTLT website is simple. Just access
+                                the website and enter your desired destination
+                                within the University. The website will provide
+                                step-by-step instructions based on real-time GPS
+                                data to guide you to your destination. You can
+                                easily track your progress and ensure you arrive
+                                without getting lost. The website also offers
+                                detailed information about each location,
+                                including operating hours and contact details,
+                                helping you plan your visit effectively.
                             </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 2} animate={customAnimation}>
                             <AccordionHeader onClick={() => handleOpen(2)}>
-                                How do I do an online consultation?
+                                Does RTLT provide information on parking areas ?
                             </AccordionHeader>
                             <AccordionBody>
-                                The steps to talk to a doctor online are simple
-                                Contact us by visiting our website or
-                                downloading the Choose your symptoms or select a
-                                specialist doctor to consult. You can even who
-                                can understand your condition better Book doctor
-                                appointment online and a specialist will get in
-                                touch with you immediately Ask a doctor online
-                                about your symptoms, problems, condition,
-                                medication, and more during your consultation
-                                Online doctor consultation at MFine may require
-                                you to submit previous medical records, lab
-                                results, etc. so the doctor can better
-                                understand your condition Post the
-                                teleconsultation, you can get follow-ups with
-                                your doctor You can also order medicines online
-                                from the MFine app You can also get lab tests
-                                done at home
+                                Yes, RTLT offers information on parking areas
+                                within the University. You can access details
+                                such as the number of available parking spaces
+                                and the cost of parking. This feature enables
+                                you to plan ahead and find convenient parking
+                                options, ensuring a smoother visit without the
+                                stress of searching for parking spaces.
                             </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 3} animate={customAnimation}>
                             <AccordionHeader onClick={() => handleOpen(3)}>
-                                Which online doctor should I see?
+                                Can RTLT help me if I am unfamiliar with the
+                                University campus?
                             </AccordionHeader>
                             <AccordionBody>
-                                If you are aware of your condition, you should
-                                consult with a doctor of the speciality your
-                                condition falls under. For example, if you
-                                suffer from back pain or fracture, you should
-                                see an orthopediician.. If you suffer from
-                                irregular periods, you should consult a
-                                gynecologist. But if you are unable to
-                                understand your symptoms, it will be best to
-                                consult doctor online such as a general
-                                physician. They will assess your symptoms and
-                                diagnose the problem and may refer you to
-                                another specialist if needed. You can also
-                                consult doctors online if you simply require a
-                                second opinion recommendations. For instance, if
-                                you need a second opinion for your child&apos;s
-                                vaccination schedule, you should consult a
-                                pediatrician who can provide you with a complete
-                                vaccination chart to follow. If you require a
-                                recommendation for your baby&apos;s diet, you
-                                should consult a pediatric-dietitian who can
-                                provide you with a personalized Indian baby food
-                                chart that caters to your child&apos;s nutritional
-                                needs!
+                                Absolutely! RTLT provides detailed maps of the
+                                University campus, making it easy to navigate
+                                even if you are unfamiliar with the
+                                surroundings. You can rely on the maps to find
+                                your way to various buildings, departments, and
+                                other locations within the campus. With RTLT's
+                                user-friendly interface and real-time location
+                                tracking, exploring the University becomes
+                                hassle-free and convenient for first-time
+                                visitors.
                             </AccordionBody>
                         </Accordion>
                     </Fragment>

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 
 export default function MainHero() {
-  return (
-    <>
+    return (
+        <>
             {/* Container for demo purpose */}
             <div>
                 {/* Section: Design Block */}
@@ -15,16 +15,21 @@ export default function MainHero() {
                     />
                     <div className="my-20">
                         <h2 className="text-5xl font-bold text-center tracking-tight">
-                            Are you ready <br />
+                            Welcome to <br />
                             <span className="text-blue-600">
-                                for an adventure?
+                                Sage University, Bhopal
                             </span>
                         </h2>
                         <p className="text-gray-500 mt-8 text-center">
-                            Lorem ipsum dolor, Molestias culpa aspernatur
-                            dolorum sapiente maiores fugiat vitae deserunt,
-                            officia eaque, tempore repellat sed eveniet magnam,
-                            atque vel ex nisi veritatis natus.
+                            Sanjeev Agrawal Global Educational (SAGE)
+                            University, located in the scenic city of Bhopal, is
+                            renowned for its exceptional academia, <br/> vast campus,
+                            and cutting-edge educational framework. With a
+                            strong commitment to transforming passion into a
+                            profession,<br/> the university offers thought-provoking
+                            learning experiences and state-of-the-art
+                            facilities, ensuring students have the best
+                            resources to shape their future.
                         </p>
                     </div>
                     <div className="px-6 py-12  lg:py-24 md:px-12 text-center lg:text-left">
@@ -38,23 +43,32 @@ export default function MainHero() {
                                         className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
                                         style={{ color: "hsl(218, 81%, 95%)" }}
                                     >
-                                        ClassCraft <br />
+                                        Real Time <br />
                                         <span
                                             style={{
                                                 color: "hsl(218, 81%, 75%)",
                                             }}
                                         >
-                                            FlorisherEdge
+                                            Location Tracking
                                         </span>
                                     </h1>
                                     <p
                                         className="opacity-70"
                                         style={{ color: "hsl(218, 81%, 85%)" }}
                                     >
-                                        Lorem ipsum dolor, sit amet consectetur
-                                        adipisicing elit. Temporibus, expedita
-                                        iusto veniam atque, magni tempora
-                                        mollitia dolorum consequatur nulla.
+                                        The institution strives to provide a
+                                        world-class education that aligns with
+                                        the rapidly evolving society. Sanjeev
+                                        Agrawal Global Educational (SAGE)
+                                        Universitys vision is to become the top
+                                        university in Madhya Pradesh, Central
+                                        India, by fostering education innovation
+                                        and producing leaders who can contribute
+                                        to society at all levels. It operates
+                                        under the patronage of the Shri Agrawal
+                                        Educational Public Trust, further
+                                        enhancing its credibility and
+                                        reputation.
                                     </p>
                                 </div>
                                 <div className="mb-12 lg:mb-0 relative">
@@ -83,5 +97,5 @@ export default function MainHero() {
             </div>
             {/* Container for demo purpose */}
         </>
-  )
+    );
 }

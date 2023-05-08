@@ -32,11 +32,11 @@ export default function WhySoGreat() {
                                         Support 24/7
                                     </h5>
                                     <p>
-                                        Laudantium totam quas cumque pariatur at
-                                        doloremque hic quos quia eius.
-                                        Reiciendis optio minus mollitia rerum
-                                        labore facilis inventore voluptatem ad,
-                                        quae quia sint. Ullam.
+                                        RTLT, a web application for navigating
+                                        university campuses, offers
+                                        round-the-clock assistance, ensuring
+                                        visitors can rely on continuous support
+                                        throughout their journey.
                                     </p>
                                 </div>
                             </div>
@@ -62,11 +62,10 @@ export default function WhySoGreat() {
                                         Safe and solid
                                     </h5>
                                     <p>
-                                        Eum nostrum fugit numquam, voluptates
-                                        veniam neque quibusdam ullam aspernatur
-                                        odio soluta, quisquam dolore animi
-                                        mollitia a omnis praesentium, expedita
-                                        nobis!
+                                        With real-time GPS tracking, RTLT
+                                        provides a secure and reliable solution
+                                        for first-time visitors to easily find
+                                        their way around the university campus.
                                     </p>
                                 </div>
                             </div>
@@ -92,10 +91,10 @@ export default function WhySoGreat() {
                                         Extremely fast
                                     </h5>
                                     <p>
-                                        Enim cupiditate, minus nulla dolor
-                                        cumque iure eveniet facere ullam beatae
-                                        hic voluptatibus dolores exercitationem?
-                                        Facilis debitis aspernatur amet nisi?
+                                        RTLT's intuitive interface and real-time
+                                        GPS data guarantee swift navigation,
+                                        allowing visitors to reach their desired
+                                        locations promptly and efficiently.
                                     </p>
                                 </div>
                             </div>

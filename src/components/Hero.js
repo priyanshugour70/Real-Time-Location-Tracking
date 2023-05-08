@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Example() {
     return (
-        <div className="bg-white bg-gradient-to-br from-[#d0d5ff] to-[#ffc2ff] min-h-screen">
+        <div className="bg-white bg-gradient-to-br from-[#d0d5ff] to-[#ffc2ff] ">
             <div className="relative isolate px-6 pt-14 lg:px-8">
                 <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -35,16 +35,18 @@ export default function Example() {
                     </div>
                     <div className="text-center">
                         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Sanjeev Agrawal Global Educational University, Bhopal
+                            Sanjeev Agrawal Global Educational University,
+                            Bhopal
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                            producing leaders of society and equipping our
-                            people with quality leadership qualities, so they
-                            can serve our communities at every level. Sanjeev
-                            Agrawal Global Educational (SAGE) University Bhopal
-                            is a well established University and functions under
-                            the patronage of Shri Agrawal Educational Public
-                            Trust.
+                            University located in the scenic city of
+                            Bhopal, is renowned for its exceptional academia,
+                            state-of-the-art infrastructure, and a commitment to
+                            transforming passion into profession. With a focus
+                            on thought-provoking learning and world-class
+                            facilities, SAGE University aims to become the top
+                            university in Madhya Pradesh, Central India,
+                            fostering leaders and serving communities
                         </p>
                     </div>
                 </div>
