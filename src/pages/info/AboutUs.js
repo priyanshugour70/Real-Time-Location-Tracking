@@ -51,8 +51,8 @@ export default function AboutUs() {
                     <div className="flex  justify-center flex-wrap">
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
                             <div className="flex lg:py-10">
-                                <img
-                                    src="https://avatars.githubusercontent.com/u/111908314?v=4"
+                                <Image
+                                    src="/profile.png"
                                     className="w-full rounded-lg shadow-lg"
                                     id="cta-img-nml-50"
                                     style={{ zIndex: 10 }}
