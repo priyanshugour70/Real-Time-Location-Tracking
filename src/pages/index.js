@@ -8,6 +8,7 @@ import WhySoGreat from "./info/WhySoGreat";
 import Connect from "@/components/Connect";
 import MainHero from "@/components/MainHero";
 import ConnectAs from "../components/ConnectAs";
+import Map from "@/maps/Map";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
                 <Head>
                     <title>Home | RTLT</title>
                 </Head>
+                {/* <Map/> */}
                 <MainHero />
                 <Hero />
                 <Blocks />

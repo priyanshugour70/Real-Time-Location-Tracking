@@ -15,7 +15,7 @@ export default function MainHero() {
                     />
                     <div className="my-20">
                         <h2 className="text-5xl font-bold text-center tracking-tight">
-                            Welcome to <br />
+                           <span className="text-white"> Welcome to </span> <br />
                             <span className="text-blue-600">
                                 Sage University, Bhopal
                             </span>
