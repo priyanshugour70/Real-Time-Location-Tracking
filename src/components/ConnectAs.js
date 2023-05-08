@@ -211,17 +211,24 @@ export default function ConnectAs() {
                                                             color: "hsl(223, 100%, 0%)",
                                                         }}
                                                     >
-                                                        Lorem ipsum dolor, sit
-                                                        amet consectetur
-                                                        adipisicing elit.
-                                                        Temporibus, expedita
-                                                        iusto veniam atque,
-                                                        magni tempora mollitia
-                                                        dolorum consequatur
-                                                        nulla, neque debitis eos
-                                                        reprehenderit quasi ab
-                                                        ipsum nisi dolorem modi.
-                                                        Quos?
+                                                        difficulty in navigating
+                                                        the large campus with
+                                                        multiple buildings,
+                                                        departments, and parking
+                                                        areas. This can lead to
+                                                        stress, lateness, and
+                                                        confusion, especially. a
+                                                        user-friendly website
+                                                        that offers real-time
+                                                        GPS navigation, detailed
+                                                        location information,
+                                                        and parking
+                                                        availability, ensuring
+                                                        visitors can easily
+                                                        reach their desired
+                                                        destinations without
+                                                        getting lost or feeling
+                                                        overwhelmed.
                                                     </p>
                                                 </div>
                                             </div>

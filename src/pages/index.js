@@ -5,7 +5,6 @@ import FAQ from "@/components/FAQ";
 import Head from "next/head";
 import Blocks from "./info/Blocks";
 import WhySoGreat from "./info/WhySoGreat";
-import Connect from "@/components/Connect";
 import MainHero from "@/components/MainHero";
 import ConnectAs from "../components/ConnectAs";
 import Map from "@/maps/Map";

@@ -15,14 +15,14 @@ export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <div className="bg-white my-16">
+        <div className="bg-blue-500 my-16">
             <header className="absolute inset-x-0 top-0 z-50">
                 <nav
                     className="flex items-center justify-between p-6 lg:px-8"
                     aria-label="Global"
                 >
                     <div className="flex lg:flex-1">
-                        <Link href="#" className="-m-1.5 p-1.5">
+                        <Link href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <Image
                                 className="h-7 w-auto"
@@ -68,7 +68,7 @@ export default function Example() {
                 </nav>
                 <Dialog
                     as="div"
-                    className="lg:hidden"
+                    className="lg:hidden bg-blue-500"
                     open={mobileMenuOpen}
                     onClose={setMobileMenuOpen}
                 >
@@ -107,6 +107,7 @@ export default function Example() {
                                         <Link
                                             key={item.name}
                                             href={item.href}
+                                            onClick={() => setMobileMenuOpen(false)}
                                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                         >
                                             {item.name}
@@ -116,6 +117,7 @@ export default function Example() {
                                 <div className="py-6">
                                     <Link
                                         href="/user/SignIn"
+                                        onClick={() => setMobileMenuOpen(false)}
                                         className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Log in
