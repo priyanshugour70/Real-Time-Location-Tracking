@@ -11,7 +11,7 @@ export default function Blocks() {
                 {/* Section: Design Block */}
                 <section className="mb-28 text-gray-800 text-center md:text-left">
                     <h2 className="text-3xl font-bold mb-12 text-center">
-                        Some widle use Block
+                        Some widely use Block
                     </h2>
                     <div className="grid md:grid-cols-2 gap-x-6 xl:gap-x-12 items-center mb-12">
                         <div className="mb-6 md:mb-0">
