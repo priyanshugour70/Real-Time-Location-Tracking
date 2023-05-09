@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Mapbox from "../../maps/Mapbox"
 
 export default function Navigation() {
     return (
@@ -26,7 +27,7 @@ export default function Navigation() {
                                     width={500}
                                     height={500}
                                 />
-                                <Link href="#!">
+                                <label htmlFor="my-modal-3">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -34,7 +35,7 @@ export default function Navigation() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </Link>
+                                </label>
                             </div>
                         </div>
                         <div className="grow-0 shrink-0 basis-auto w-full md:w-9/12 xl:w-7/12 px-3 mb-6 md:mb-0 mr-auto">
@@ -77,7 +78,7 @@ export default function Navigation() {
                                     width={500}
                                     height={500}
                                 />
-                                <Link href="#!">
+                                <label htmlFor="my-modal-3">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -85,7 +86,7 @@ export default function Navigation() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </Link>
+                                </label>
                             </div>
                         </div>
                         <div className="grow-0 shrink-0 basis-auto w-full md:w-9/12 xl:w-7/12 px-3 mb-6 md:mb-0 mr-auto">
@@ -128,7 +129,7 @@ export default function Navigation() {
                                     width={500}
                                     height={500}
                                 />
-                                <Link href="#!">
+                                <label htmlFor="my-modal-3">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -136,7 +137,7 @@ export default function Navigation() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </Link>
+                                </label>
                             </div>
                         </div>
                         <div className="grow-0 shrink-0 basis-auto w-full md:w-9/12 xl:w-7/12 px-3 mb-6 md:mb-0 mr-auto">
@@ -183,7 +184,7 @@ export default function Navigation() {
                                                 width={500}
                                                 height={500}
                                             />
-                                            <Link href="#!">
+                                            <label htmlFor="my-modal-3">
                                                 <div
                                                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                                     style={{
@@ -191,7 +192,7 @@ export default function Navigation() {
                                                             "rgba(251, 251, 251, 0.15)",
                                                     }}
                                                 />
-                                            </Link>
+                                            </label>
                                         </div>
                                     </div>
                                     <div className="p-6">
@@ -232,7 +233,7 @@ export default function Navigation() {
                                                 width={500}
                                                 height={500}
                                             />
-                                            <Link href="#!">
+                                            <label htmlFor="my-modal-3">
                                                 <div
                                                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                                     style={{
@@ -240,7 +241,7 @@ export default function Navigation() {
                                                             "rgba(251, 251, 251, 0.15)",
                                                     }}
                                                 />
-                                            </Link>
+                                            </label>
                                         </div>
                                     </div>
                                     <div className="p-6">
@@ -281,7 +282,7 @@ export default function Navigation() {
                                                 width={500}
                                                 height={500}
                                             />
-                                            <Link href="#!">
+                                            <label htmlFor="my-modal-3">
                                                 <div
                                                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                                     style={{
@@ -289,7 +290,7 @@ export default function Navigation() {
                                                             "rgba(251, 251, 251, 0.15)",
                                                     }}
                                                 />
-                                            </Link>
+                                            </label>
                                         </div>
                                     </div>
                                     <div className="p-6">
@@ -332,7 +333,7 @@ export default function Navigation() {
                                         width={500}
                                         height={500}
                                     />
-                                    <Link href="#!">
+                                    <label htmlFor="my-modal-3">
                                         <div
                                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                             style={{
@@ -340,7 +341,7 @@ export default function Navigation() {
                                                     "rgba(251, 251, 251, 0.2)",
                                             }}
                                         />
-                                    </Link>
+                                    </label>
                                 </div>
                             </div>
                             <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pl-6">
@@ -385,7 +386,7 @@ export default function Navigation() {
                                         width={500}
                                         height={500}
                                     />
-                                    <Link href="#!">
+                                    <label htmlFor="my-modal-3">
                                         <div
                                             className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                             style={{
@@ -393,7 +394,7 @@ export default function Navigation() {
                                                     "rgba(251, 251, 251, 0.2)",
                                             }}
                                         />
-                                    </Link>
+                                    </label>
                                 </div>
                             </div>
                             <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pr-6">
@@ -443,7 +444,7 @@ export default function Navigation() {
                                                 width={500}
                                                 height={500}
                                             />
-                                            <Link href="#!">
+                                            <label htmlFor="my-modal-3">
                                                 <div
                                                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                                     style={{
@@ -451,7 +452,7 @@ export default function Navigation() {
                                                             "rgba(251, 251, 251, 0.15)",
                                                     }}
                                                 />
-                                            </Link>
+                                            </label>
                                         </div>
                                     </div>
                                     <div className="p-6">
@@ -492,7 +493,7 @@ export default function Navigation() {
                                                 width={500}
                                                 height={500}
                                             />
-                                            <Link href="#!">
+                                            <label htmlFor="my-modal-3">
                                                 <div
                                                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                                     style={{
@@ -500,7 +501,7 @@ export default function Navigation() {
                                                             "rgba(251, 251, 251, 0.15)",
                                                     }}
                                                 />
-                                            </Link>
+                                            </label>
                                         </div>
                                     </div>
                                     <div className="p-6">
@@ -541,7 +542,7 @@ export default function Navigation() {
                                                 width={500}
                                                 height={500}
                                             />
-                                            <Link href="#!">
+                                            <label htmlFor="my-modal-3">
                                                 <div
                                                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                                     style={{
@@ -549,7 +550,7 @@ export default function Navigation() {
                                                             "rgba(251, 251, 251, 0.15)",
                                                     }}
                                                 />
-                                            </Link>
+                                            </label>
                                         </div>
                                     </div>
                                     <div className="p-6">
@@ -581,6 +582,22 @@ export default function Navigation() {
                 {/* Section: Design Block */}
             </div>
             {/* Container for demo purpose */}
+
+            {/* Modal Logic */}
+            <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+            <div className="modal">
+                <div className="modal-box relative">
+                    <label
+                        htmlFor="my-modal-3"
+                        className="btn btn-sm btn-circle absolute right-2 top-2"
+                    >
+                        ✕
+                    </label>
+                    <div className="">
+                        <Mapbox />
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

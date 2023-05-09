@@ -1,6 +1,8 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Mapbox from "../../maps/Mapbox"
 
 export default function Blocks() {
     return (
@@ -26,7 +28,7 @@ export default function Blocks() {
                                     width={500}
                                     height={500}
                                 />
-                                <Link href="#!">
+                                <label htmlFor="my-modal-3">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -34,7 +36,7 @@ export default function Blocks() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </Link>
+                                </label>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0">
@@ -76,7 +78,7 @@ export default function Blocks() {
                                     width={500}
                                     height={500}
                                 />
-                                <Link href="#!">
+                                <label htmlFor="my-modal-3">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -84,7 +86,7 @@ export default function Blocks() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </Link>
+                                </label>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0 md:order-1">
@@ -125,7 +127,7 @@ export default function Blocks() {
                                     width={500}
                                     height={500}
                                 />
-                                <Link href="#!">
+                                <label htmlFor="my-modal-3">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -133,7 +135,7 @@ export default function Blocks() {
                                                 "rgba(251, 251, 251, 0.2)",
                                         }}
                                     />
-                                </Link>
+                                </label>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0">
@@ -163,6 +165,23 @@ export default function Blocks() {
                 {/* Section: Design Block */}
             </div>
             {/* Container for demo purpose */}
+
+
+            {/* Modal Logic */}
+            <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+            <div className="modal">
+                <div className="modal-box relative">
+                    <label
+                        htmlFor="my-modal-3"
+                        className="btn btn-sm btn-circle absolute right-2 top-2"
+                    >
+                        ✕
+                    </label>
+                    <div>
+                        <Mapbox />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

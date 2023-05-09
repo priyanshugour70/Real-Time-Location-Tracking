@@ -7,7 +7,9 @@ import Blocks from "./info/Blocks";
 import WhySoGreat from "./info/WhySoGreat";
 import MainHero from "@/components/MainHero";
 import ConnectAs from "../components/ConnectAs";
-import Map from "@/maps/Map";
+// import '../styles/index.css';
+import Mapbox from "@/maps/Mapbox";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +30,7 @@ export default function Home() {
             <div className=" bg-white bg-gradient-to-br from-[#d0d5ff] to-[#ffc2ff]">
                 <FAQ />
             </div>
+            <Mapbox/>
         </>
     );
 }
