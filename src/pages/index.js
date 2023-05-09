@@ -30,7 +30,6 @@ export default function Home() {
             <div className=" bg-white bg-gradient-to-br from-[#d0d5ff] to-[#ffc2ff]">
                 <FAQ />
             </div>
-            <Mapbox/>
         </>
     );
 }

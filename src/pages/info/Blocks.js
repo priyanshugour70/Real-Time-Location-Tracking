@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -28,7 +27,7 @@ export default function Blocks() {
                                     width={500}
                                     height={500}
                                 />
-                                <label htmlFor="my-modal-3">
+                                <label htmlFor="my-modal-5">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -78,7 +77,7 @@ export default function Blocks() {
                                     width={500}
                                     height={500}
                                 />
-                                <label htmlFor="my-modal-3">
+                                <label htmlFor="my-modal-5">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -127,7 +126,7 @@ export default function Blocks() {
                                     width={500}
                                     height={500}
                                 />
-                                <label htmlFor="my-modal-3">
+                                <label htmlFor="my-modal-5">
                                     <div
                                         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                                         style={{
@@ -165,19 +164,17 @@ export default function Blocks() {
                 {/* Section: Design Block */}
             </div>
             {/* Container for demo purpose */}
-
-
-            {/* Modal Logic */}
-            <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+            {/* Put this part before </body> tag */}
+            <input type="checkbox" id="my-modal-5" className="modal-toggle" />
             <div className="modal">
                 <div className="modal-box relative">
                     <label
-                        htmlFor="my-modal-3"
+                        htmlFor="my-modal-5"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                     >
                         ✕
                     </label>
-                    <div>
+                    <div className="py-4">
                         <Mapbox />
                     </div>
                 </div>
